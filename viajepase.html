@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaje</title>
+</head>
+<body style="background-color: pink;">
+  <a href="/index.html">Volver</a>
+  <form>
+      <table border="1">
+        <tr>
+          <td>
+            <input type="text" placeholder="Nombre">
+          </td>
+          <td>
+            <input type="text" placeholder="Apellidos">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="email" placeholder="Email">
+          </td>
+          <td>
+            <input type="tel" placeholder="Teléfono">
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="pais">País de procendencia</label>
+            <select id="pais">
+              <option>Andorra</option>
+              <option>Alemania</option>
+              <option>Estados Unidos</option>
+              <option>España</option>
+              <option>Finlandia</option>
+              <option>Francia</option>
+              <option>Inglaterra</option>
+              <option>Italia</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">Cantidad de personas:
+            <select id="pais">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6 o más</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Destino turístico:
+            <label for="">Warner Bros</label> <input type="radio" name="destino">
+            <label for="">DisneyLand</label>
+            <input type="radio" name="destino">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Cantidad de días
+          </td>
+          <td>
+            <input type="tel" size="1">
+            <label>días</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Discapacidad
+          </td>
+          <td>
+            <input type="text" placeholder="Escríbela">
+          </td>
+        </tr>
+      </table>
+    <br>
+    <fieldset>
+      <legend>DisneyLand</legend>
+        <table border="1">
+          <tr>
+            <td>Reservar Hotel</td>
+            <td>
+              <select>
+                <option>DisneyLand Hotel</option>
+                <option>Disney Hotel New York</option>
+                <option>Disney Newport Bay Club</option>
+                <option>Disney Sequoia Lodge</option>
+                <option>Disney Hotel Cheyenne</option>
+                <option>Disney Hotel Santa Fe</option>
+                <option>Disney Davy Crockett Ranch</option>
+                <option>Center Parcs Villages</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Buffet Libre</td>
+            <td>
+              <label>Si</label>
+              <input type="radio" name="buf">
+              <label>No</label>
+              <input type="radio" name="buf">
+            </td>
+          </tr>
+          <tr></tr>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Warner Bros</legend>
+        <table border="1">
+          <tr>
+            <td>Reservar Hotel</td>
+            <td>
+              <select>
+                <option>Warner Bros Hotel</option>
+                <option>Superman Hotel</option>
+                <option>Batman Hotel</option>
+                <option>Hulk Hotel</option>
+                <option>Otros</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Buffet Libre</td>
+            <td>
+              <label>Si</label>
+              <input type="radio" name="buf">
+              <label>No</label>
+              <input type="radio" name="buf">
+            </td>
+          </tr>
+          <tr></tr>
+        </table>
+    </fieldset>
+    <button type="submit">Reservar</button>
+  </form>
+</body>
+</html>
